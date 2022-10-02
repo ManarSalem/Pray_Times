@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+* {
+    box-sizing: border-box;/* to not add more pixels for border and padding */
+  }
+  body {
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    justify-content: center;/* control the content in horizontal order*/
+    align-items: center;/* control the cintent in vertical order*/
+    height: 100vh;/* 100% of the page height*/
+    overflow: hidden;
+    color:rgb(228, 213, 227);
+    font-weight: 200;
+    background-image: linear-gradient(to right, rgb(15, 15, 15), rgb(61, 50, 50));
+  }
+  .container {
+    display: flex;
+    width: 50vw;
+    height:80vh;
+    background-image: linear-gradient(to right, rgb(107, 40, 104), rgb(110, 32, 173));
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.226), 0 8px 24px rgba(0, 0, 0, 0.315);
+    
+  }  
+  .container div
+  {
+    margin:2vw;
+  }
+.container .times-box2
+{
+  background-color: rgb(82, 24, 109);
+  width:80vw;
+  
+
+}
+.container .times-box2 div
+{
+  
+  
+  background-color: rgb(66, 40, 65);
+  border-color: aliceblue;
+  box-shadow: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /*width: 10vw;*/
+}

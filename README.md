@@ -4,5 +4,5 @@
 - style.css includes the styling properites I have been used in this project.
 - script.js includes the functions that are used to fetch the data from an API and empedded those data to the html page.
 Here is link of the API used in this project [click here](http://api.aladhan.com/v1/timingsByCity?city=Riyadh&country=Kingdom%20Saudi%20Arabia&method=8).
-you can see tha page [here]( https://manarsalem.github.io/Pray_Times/)
+
 
